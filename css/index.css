@@ -151,6 +151,7 @@ body {
   display: none;
 }
 body {
+  background-color: #ededed;
   display: flex;
 }
 @media (max-width: 600px) {
@@ -190,6 +191,10 @@ body .left-panel h4 {
 }
 body .left-panel p {
   font-size: 1rem;
+}
+body .left-panel p span {
+  display: inline-block;
+  padding: 0;
 }
 body .left-panel div {
   display: inline-flex;
@@ -252,7 +257,7 @@ body .left-panel .vietnamese-end {
 body .right-panel {
   padding: 1rem 0;
   width: 70%;
-  background-color: #ededed;
+  align-self: flex-start;
 }
 @media (max-width: 600px) {
   body .right-panel {
